@@ -1,0 +1,121 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'B612 Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+#jvrc {
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+}
+
+.info {
+    padding: 0px 0px 0px 10px;
+}
+
+section {
+    background: white;
+    color: black;
+    border-radius: 4px;
+    padding: 5px;
+    align-items: center;
+    width: 95%;
+
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+}
+footer {
+    background: purple;
+    border-radius: 1px;
+    padding: 5px;
+    position: absolute;
+    width: 99%;
+    height: 50px;
+    bottom: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+#logo-git {
+    width: 40px;
+}
+
+#logo-insta {
+    width: 40px;
+}
+
+#logo-discord {
+    width: 40px;
+}
+
+@media only screen and (max-device-width: 700px) {
+    body {
+        background: black;
+        color: white;
+        font-family: 'B612 Mono', monospace;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #jvrc {
+        width: 750px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        border: 4px solid white;
+    }
+    
+    .info {
+        padding: 0px 0px 0px 10px;
+    }
+    
+    section {
+        background: white;
+        color: black;
+        border-radius: 4px;
+        padding: 5px;
+        align-items: center;
+        width: 95%;
+    
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+    }
+
+    footer {
+        background: purple;
+        border-radius: 1px;
+        padding: 5px;
+        position:relative;
+        width: 99%;
+        height: 100px;
+        bottom: 0;
+    }
+    
+    
+    a {
+        text-decoration: none;
+    }
+    #logo-git {
+        width: 90px;
+    }
+    
+    #logo-insta {
+        width: 90px;
+    }
+    
+    #logo-discord {
+        width: 90px;
+    }
+}
