@@ -57,18 +57,22 @@ a {
     text-decoration: none;
 }
 #logo-git {
+    height: 40px;
     width: 40px;
 }
 
 #logo-insta {
+    height: 40px;
     width: 40px;
 }
 
 #logo-twitch {
+    height: 40px;
     width: 40px;
 }
 
 #logo-linkedin {
+    height: 40px;
     width: 40px;
 }
 
@@ -124,18 +128,23 @@ a {
     }
 
     #logo-git {
+        height: 90px;
+        width: 90px;
         width: 90px;
     }
     
     #logo-insta {
+        height: 90px;
         width: 90px;
     }
     
     #logo-twitch {
+        height: 90px;
         width: 90px;
     }
 
     #logo-linkedin {
+        height: 90px;
         width: 90px;
     }
 }
