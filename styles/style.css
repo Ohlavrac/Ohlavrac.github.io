@@ -16,14 +16,24 @@ body {
 }
 
 .info {
-    padding: 0px 0px 0px 10px;
+    width: 95%;
+    text-align: justify;
+    margin: 0 auto;
+    display: block;
+}
+
+.about-me {
+    width: 95%;
+    text-align: justify;
+    margin: 0 auto;
+    display: block;
 }
 
 section {
     background: white;
     color: black;
     border-radius: 4px;
-    padding: 5px;
+    padding: 10px;
     align-items: center;
     width: 95%;
 
@@ -35,7 +45,7 @@ footer {
     background: purple;
     border-radius: 1px;
     padding: 5px;
-    position: absolute;
+    position: relative;
     width: 99%;
     height: 50px;
     bottom: 0;
@@ -53,7 +63,11 @@ a {
     width: 40px;
 }
 
-#logo-discord {
+#logo-twitch {
+    width: 40px;
+}
+
+#logo-linkedin {
     width: 40px;
 }
 
@@ -107,6 +121,7 @@ a {
     a {
         text-decoration: none;
     }
+
     #logo-git {
         width: 90px;
     }
@@ -115,7 +130,11 @@ a {
         width: 90px;
     }
     
-    #logo-discord {
+    #logo-twitch {
+        width: 90px;
+    }
+
+    #logo-linkedin {
         width: 90px;
     }
 }
